@@ -10,8 +10,8 @@
     <h3>問題</h3>
     <p>GoogleMapAPIを使えば簡単に座標の情報を抜き出すことが出来ます。例えば、クリックした座標を取得(<a href="http://samui13.github.io/jQueryAdvent2013/example/getlat.html">Example</a>)することもできます。ただ、場所によっては座標を取得出来無いばあいがあります。画像内の赤い丸で託った部分にあるアイコンを押てみてください。</p>
     <p>
-      <img src="img/question.png" width="400" alt="(1)"/>
-      <img src="img/question2.png" width="400" alt="(2)"/>
+      <img src="http://samui13.github.io/jQueryAdvent2013/img/question.png" width="400" alt="(1)"/>
+      <img src="http://samui13.github.io/jQueryAdvent2013/img/question2.png" width="400" alt="(2)"/>
     </p>
     <p>この場所だけでなくアイコンの置いてある場所ではinfoの吹き出し(二つめの画像)がでて座標の情報をもらうことは出来ません。このアイコンから情報を取ることが問題です。</p>
     
@@ -21,7 +21,7 @@
       まず、アイコンをクリックしたら出て来るinfowindowの要素について。
     </p>
     <p>
-      <img src="img/answer0.png" width="400" alt="(3)"/>
+      <img src="http://samui13.github.io/jQueryAdvent2013/img/answer0.png" width="400" alt="(3)"/>
     </p>
     <p>この吹き出しは３つの情報を提供しています。div.gm-title,div.gm-basicinfo,div.gm-photosです。緯度と経度が取得できないのでgm-titleの情報を緯度と経度に変換します。GoogleMapAPIを使えば簡単に変換ができます。</p>
     <pre>
@@ -88,7 +88,8 @@
 	});
     });
     </pre>    
-    <a href="http://samui13.github.io/jQueryAdvent2013/example/ans.html">実行例</a>
+    <p><a href="http://samui13.github.io/jQueryAdvent2013/example/ans.html">実行例</a></p>
+    <p><a href="https://github.com/samui13/jQueryAdvent2013">ソース</a></p>
     <h3>謝辞</h3>
     <p>この記事で紹介した方法は<a href="https://twitter.com/sssAlchemy">@sssAlchemy</a>君と見付けたものです。私１人では解決することは困難な問題でした。</p>
     <p>もっといい実装があれば是非教えてください！。</p>
